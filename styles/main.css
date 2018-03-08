@@ -47,6 +47,7 @@ main h1 {
     color: #ffffff;
     line-height: 72px;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 main h2 {
@@ -55,6 +56,7 @@ main h2 {
     font-weight: 400;
     color: #1a1a1a;
     line-height: 42px;
+    padding-bottom: 20px;
 }
 
 main h3 {
@@ -74,6 +76,20 @@ main emph {
     color: #1a1a1a;
     line-height: 36px;
 }
+
+main .col-sm-8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main a {
+    color: white;
+}
+
+main a:hover {
+    color: rgba(255,255,255, 0.8);
+}
+
 
 /* =========================
         HEADER & FOOTER
@@ -100,7 +116,7 @@ header a {
     font-size: 13px;
     font-weight: 400;
     line-height: 13px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #1a1a1a;
     padding: 0 20px;
     margin: 0px;
@@ -117,7 +133,6 @@ footer {
     font-size: 12px;
     padding: 10px 0 10px 0;
     font-family: "Proxima Nova";
-    font-size: 12px;
     font-weight: 400;
     line-height: 19px;
     color: rgba(255,255,255, 0.4);
@@ -154,50 +169,6 @@ section {
     margin: 0px;
 }
 
-contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("../images/building-bridges.jpg");
-    background-size: cover;
-    height: 750px;
-}
-
-contact h1 {
-    font-family: "Proxima Nova";
-    font-size: 72px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-contact h2 {
-
-}
-
-contact h3 {
-    font-family: "Adobe Garamond Pro Italic";
-    font-size: 24px;
-    font-weight: 400;
-    color: #ffffff;
-    letter-spacing: 2px;
-}
-
-contact ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-contact li {
-    margin: 20px;
-}
-
-contact .ul .col-4 {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .white-icons {
     color: white;
 }
@@ -209,13 +180,22 @@ contact .ul .col-4 {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('../images/home-background-dark.jpg');
-    background-size: cover;
-    border-radius: 0;
     color: #ffffff;
     height: 750px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
     margin: 0;
+}
+
+.jumbotron, home {
+    background-image: url('../images/home-background-dark.jpg');
+    background-size: cover;
+    border-radius: 0;
+}
+
+.jumbotron, contact {
+    background-image: url('../images/building-bridges.jpg');
+    background-size: cover;
+    border-radius: 0;
 }
 
 /*.jumbotron h2 {
