@@ -1,6 +1,34 @@
+@font-face {
+    font-family: "Adobe Garamond Pro Regular";
+    src: url("../fonts/Adobe Garamond Pro Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Adobe Garamond Pro Italic";
+    src: url("../fonts/Adobe Garamond Pro Italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Adobe Garamond Pro";
+    src: url("../fonts/Adobe-Garamond-Pro_2012.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/proxima-nova-regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Proxima Nova Thin";
+    src: url("../fonts/proxima-nova-thin.ttf") format("truetype");
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+static {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    opacity: 0.92;
 }
 
 header {
@@ -33,20 +61,78 @@ header a {
     margin: 0;
 }
 
+section {
+    padding: 10px;
+}
+
+contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/building-bridges.jpg");
+    background-size: cover;
+    height: 750px;
+}
+
+contact h1 {
+    font-family: "Proxima Nova";
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+contact h2 {
+
+}
+
+contact h3 {
+    font-family: "Adobe Garamond Pro Italic";
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+contact li {
+    margin: 20px;
+}
+
+contact .ul .col-4 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.white-icons {
+    color: white;
+}
+
+.white-icons:hover {
+    color:black;
+}
+
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('../images/home-background.jpg');
+    background-image: url('../images/home-background-bw.jpg');
     background-size: cover;
     color: #ffffff;
-    height: 800px;
+    height: 750px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
+    padding: -20px !important;
 }
 
 .jumbotron h2 {
-    font-family: "Proxima Nova", sans-serif;
-    font-size: 60px;
-    font-weight: 700;
+    font-family: "Adobe Garamond Pro Italic";
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
     margin: 0;
     color: #fff;
 }
@@ -86,7 +172,7 @@ section .row img {
 
 footer {
     font-size: 12px;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 footer .col-sm-8 {
