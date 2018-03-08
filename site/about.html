@@ -5,9 +5,12 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script type="text/javascript" src="../instafeed.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
 </head>
+
+
 
 <body>
 <static>
@@ -36,6 +39,28 @@
             </div>
         </div>
     </section>
+    <section class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10" style="text-align: center"><h2>A few fun facts about myself</h2></div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10" style="text-align: center"><emph>I do not drink any coffee at all. I know nothing about movies.
+                    My favorite TV shows are sitcoms or crime series. I eat almost everything. I enjoy cooking and eating out in nice restaurants.
+                    I am a sports enthusiast and watch what I can. I have younger twin sisters. I used to know how to play guitar. Traveling is awesome.
+                    I enjoy gardening and building things.</emph></div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="jumbotron" style="background-color: white;">
+        <div class="container">
+            <div id="instafeed"></div>
+        </div>
+    </section>
 </main>
 
 <footer>
@@ -59,6 +84,26 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'woodworking',
+        clientId: 'c45a429acc8248b7b0431dcb5b93633b'
+    });
+    feed.run();
+</script>
+
+<!--<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userID: '326910979',
+        accessToken: '326910979.c45a429.ef9073375d074a399504b1550cdbfbf2',
+        clientID: 'c45a429acc8248b7b0431dcb5b93633b',
+        limit: 16
+    });
+    userFeed.run();
+</script>-->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
