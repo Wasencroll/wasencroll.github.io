@@ -1,3 +1,6 @@
+/* =========================
+         FONT FAMILIES
+   ========================= */
 @font-face {
     font-family: "Adobe Garamond Pro Regular";
     src: url("../fonts/Adobe Garamond Pro Regular.ttf") format("truetype");
@@ -19,10 +22,62 @@
     src: url("../fonts/proxima-nova-thin.ttf") format("truetype");
 }
 
+/* =========================
+        STANDARD STYLING
+   ========================= */
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
+
+main {
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+}
+
+main h1 {
+    font-family: "Proxima Nova";
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 72px;
+    margin: 0;
+}
+
+main h2 {
+    font-family: "Adobe Garamond Pro";
+    font-size: 42px;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height: 42px;
+}
+
+main h3 {
+    font-family: "Adobe Garamond Pro Italic";
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+
+main emph {
+    font-family: "Proxima Nova";
+    font-size: 26px;
+    font-weight: 300;
+    color: #1a1a1a;
+    line-height: 36px;
+}
+
+/* =========================
+        HEADER & FOOTER
+   ========================= */
 
 static {
     position: fixed;
@@ -35,34 +90,68 @@ header {
     padding: 10px 0;
 }
 
-header .row,
-footer .row {
-    display: flex;
-    align-items: center;
-}
-
-header h1 {
-    font-weight: 700;
-    margin: 0;
-}
-
 header nav {
     display: flex;
     justify-content: flex-end;
 }
 
-header p {
+header a {
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 1px;
+    color: #1a1a1a;
     padding: 0 20px;
+    margin: 0px;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(255,255,255, 0.4);
+    background-color: rgb(29,28,32);
+    margin: 0;
+    padding: 30px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer p {
     margin: 0;
 }
 
-header a {
-    padding: 0 20px;
-    margin: 0;
+footer a {
+    color: rgba(255,255,255, 0.4);
 }
+
+footer a:hover {
+    color: #ffffff;
+}
+
+
 
 section {
-    padding: 10px;
+    padding: 1px;
+    margin: 0px;
 }
 
 contact {
@@ -120,32 +209,33 @@ contact .ul .col-4 {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('../images/home-background-bw.jpg');
+    background-image: url('../images/home-background-dark.jpg');
     background-size: cover;
+    border-radius: 0;
     color: #ffffff;
     height: 750px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
-    padding: -20px !important;
+    margin: 0;
 }
 
-.jumbotron h2 {
+/*.jumbotron h2 {
     font-family: "Adobe Garamond Pro Italic";
     font-size: 24px;
     letter-spacing: 2px;
     font-weight: 400;
     margin: 0;
     color: #fff;
-}
+}*/
 
-.jumbotron h3 {
+/*.jumbotron h3 {
     margin: 0 0 20px;
     color: #fff;
-}
+}*/
 
-section .row img {
+/*section .row img {
     margin: 0 0 30px;
     width: 100%;
-}
+}*/
 
 .col-md-6 {
     margin: 0 0 30px;
@@ -170,21 +260,3 @@ section .row img {
     margin: 0 0 30px;
 }
 
-footer {
-    font-size: 12px;
-    padding: 0px 0;
-}
-
-footer .col-sm-8 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer li img {
-    width: 32px;
-    height: 32px;
-}
