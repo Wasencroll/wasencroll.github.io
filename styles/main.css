@@ -207,7 +207,7 @@ footer a:hover {
     display: flex;
     align-items: center;
     color: #ffffff;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
+    /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
     margin: 0;
 }
 
