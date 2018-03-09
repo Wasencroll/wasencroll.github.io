@@ -5,7 +5,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script type="text/javascript" src="../instafeed.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
 </head>
@@ -56,9 +55,18 @@
             </div>
         </div>
     </section>
-    <section class="jumbotron" style="background-color: white;">
+    <section class="jumbotron" style="background-color: white">
         <div class="container">
-            <div id="instafeed"></div>
+            <div class="row">
+                <div class="col-sm-12" style="text-align: center"><h2>Explore My Instagram Feed</h2></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12"><div id="instafeed"></div></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" style="text-align: center"><a href="https://www.instagram.com/wasencroll" target="_blank"
+                                                                     class="btn-black-outl">FOLLOW ME ON INSTAGRAM</a></div>
+            </div>
         </div>
     </section>
 </main>
@@ -85,25 +93,19 @@
     </div>
 </footer>
 
+<script type="text/javascript" src="../instafeed.min.js"></script>
 <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'woodworking',
-        clientId: 'c45a429acc8248b7b0431dcb5b93633b'
-    });
-    feed.run();
-</script>
-
-<!--<script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
-        userID: '326910979',
+        userId: '326910979',
         accessToken: '326910979.c45a429.ef9073375d074a399504b1550cdbfbf2',
         clientID: 'c45a429acc8248b7b0431dcb5b93633b',
-        limit: 16
+        limit: 12,
+        resolution: 'standard_resolution',
+        template: '<a href="{{link}}" target="_blank" id="{{id}}" ><img src="{{image}}" width="{{width}}" height="{{height}}"/></a>'
     });
     userFeed.run();
-</script>-->
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

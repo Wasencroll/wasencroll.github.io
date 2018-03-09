@@ -34,7 +34,7 @@ main {
     font-family: "Proxima Nova";
     font-size: 16px;
     font-weight: 400;
-    color: #1a1a1a;
+    color: #27272b;
     line-height: 29px;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ main h2 {
     font-family: "Adobe Garamond Pro";
     font-size: 42px;
     font-weight: 400;
-    color: #1a1a1a;
+    color: #27272b;
     line-height: 42px;
     padding-bottom: 20px;
 }
@@ -73,7 +73,7 @@ main emph {
     font-family: "Proxima Nova";
     font-size: 26px;
     font-weight: 300;
-    color: #1a1a1a;
+    color: #27272b;
     line-height: 36px;
     padding-bottom: 20px;
 }
@@ -95,6 +95,35 @@ section {
     padding: 1px;
     margin: 0px;
 }
+
+.btn-black-outl {
+    border: 1px solid #27272b;
+    color: #27272b;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 20px 0;
+    padding: 15px 25px;
+    display: inline-block;
+
+}
+
+.btn-black-outl:hover {
+    border: 1px solid #27272b;
+    background-color: #27272b;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 0;
+    text-decoration: none;
+}
+
 
 
 /* =========================
@@ -178,7 +207,6 @@ footer a:hover {
     display: flex;
     align-items: center;
     color: #ffffff;
-
     text-shadow: 0.25px 0.25px 0.25px #000000;
     margin: 0;
 }
@@ -232,3 +260,38 @@ footer a:hover {
     margin: 0 0 30px;
 }
 
+/* =========================
+          INSTAGRAM
+   ========================= */
+
+#instafeed {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+}
+
+#instafeed a {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: center;
+    width: 16.6%;
+    height: 16.6%;
+}
+
+#instafeed img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
