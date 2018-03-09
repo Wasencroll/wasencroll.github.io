@@ -30,14 +30,13 @@ body {
     padding: 0;
 }
 
-main {
+main p {
     font-family: "Proxima Nova";
     font-size: 16px;
     font-weight: 400;
-    color: #27272b;
+    color: rgba(26, 26, 26, 0.75);
     line-height: 29px;
     margin: 0;
-    padding: 0;
 }
 
 main h1 {
@@ -47,16 +46,15 @@ main h1 {
     color: #ffffff;
     line-height: 72px;
     margin: 0;
-    padding-bottom: 20px;
 }
 
 main h2 {
     font-family: "Adobe Garamond Pro";
     font-size: 42px;
     font-weight: 400;
-    color: #27272b;
+    color: #1a1a1a;
     line-height: 42px;
-    padding-bottom: 20px;
+    opacity: 0.9;
 }
 
 main h3 {
@@ -66,16 +64,16 @@ main h3 {
     color: #ffffff;
     letter-spacing: 2px;
     line-height: 36px;
-    padding-bottom: 20px;
 }
 
 main emph {
     font-family: "Proxima Nova";
     font-size: 26px;
     font-weight: 300;
-    color: #27272b;
+    color: #1a1a1a;
     line-height: 36px;
-    padding-bottom: 20px;
+    opacity: 0.9;
+    margin: 0;
 }
 
 main .col-sm-8 {
@@ -91,8 +89,21 @@ main a:hover {
     color: rgba(255,255,255, 0.8);
 }
 
+main .row {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+main img {
+    width: calc(100%/4);
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
 section {
-    padding: 1px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -107,7 +118,7 @@ section {
     border-radius: 0;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    margin: 20px 0;
+    margin: 20px 10px;
     padding: 15px 25px;
     display: inline-block;
 
@@ -133,6 +144,7 @@ section {
 static {
     position: fixed;
     background-color: white;
+    border-bottom: 1px solid rgba(26,26,26, 0.9);
     width: 100%;
     opacity: 0.92;
     z-index: 1000;
@@ -172,7 +184,7 @@ footer {
     font-weight: 400;
     line-height: 19px;
     color: rgba(255,255,255, 0.4);
-    background-color: rgb(29,28,32);
+    background-color: rgba(29,28,32, 0.9);
     margin: 0;
     padding: 30px 0;
 }
@@ -232,6 +244,15 @@ footer a:hover {
     height: 725px;
 }
 
+.jumbotron-photo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
 /*section .row img {
     margin: 0 0 30px;
     width: 100%;
@@ -269,7 +290,7 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     list-style: none;
     -ms-box-orient: horizontal;
     display: -webkit-box;
