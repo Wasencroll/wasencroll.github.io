@@ -37,6 +37,8 @@ main p {
     color: rgba(26, 26, 26, 0.75);
     line-height: 29px;
     margin: 0;
+    font-style: normal;
+    text-align: justify;
 }
 
 main h1 {
@@ -74,12 +76,42 @@ main emph {
     line-height: 36px;
     opacity: 0.9;
     margin: 0;
+    font-style: normal;
 }
 
-main .col-sm-8 {
+main resume-head {
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 22px;
+    margin: 0;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+main resume-place {
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(26, 26, 26, 0.75);
+    line-height: 29px;
+    margin: 0;
+    font-style: normal;
+    display: block;
+}
+
+#resume {
+    padding-bottom: 20px;
+    display: block;
+}
+
+/*main .col-sm-8 {
     display: flex;
     justify-content: space-between;
-}
+}*/
 
 main a {
     color: white;
@@ -94,12 +126,18 @@ main .row {
     padding-bottom: 20px;
 }
 
-main img {
+#photo-banner {
     width: calc(100%/4);
     padding: 0;
     margin: 0;
     display: inline-block;
     justify-content: flex-end;
+}
+
+#portrait {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
 }
 
 section {
@@ -128,6 +166,34 @@ section {
     border: 1px solid #27272b;
     background-color: #27272b;
     color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 0;
+    text-decoration: none;
+}
+
+.btn-white-outl {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 20px 10px;
+    padding: 15px 25px;
+    display: inline-block;
+
+}
+
+.btn-white-outl:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #27272b;
     font-family: "Proxima Nova";
     font-size: 15px;
     font-weight: 400;
@@ -179,7 +245,6 @@ footer .row {
 
 footer {
     font-size: 12px;
-    padding: 10px 0 10px 0;
     font-family: "Proxima Nova";
     font-weight: 400;
     line-height: 19px;
@@ -250,7 +315,13 @@ footer a:hover {
     align-items: center;
     margin: 0;
     padding: 20px 0;
+}
 
+.jumbotron-resume {
+    background-image: url('../images/alexander-croll-resume.jpg');
+    background-size: cover;
+    border-radius: 0;
+    height: 725px;
 }
 
 /*section .row img {
