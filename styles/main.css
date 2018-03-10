@@ -108,10 +108,10 @@ main resume-place {
     display: block;
 }
 
-/*main .col-sm-8 {
+.contact-flex {
     display: flex;
     justify-content: space-between;
-}*/
+}
 
 main a {
     color: white;
