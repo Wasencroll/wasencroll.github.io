@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e16a0a32-71be-41b8-8d3a-1bbb0b7d930a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/about.html" afterPath="$PROJECT_DIR$/site/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/contact.html" afterPath="$PROJECT_DIR$/site/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/portfolio.html" afterPath="$PROJECT_DIR$/site/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/resume.html" afterPath="$PROJECT_DIR$/site/resume.html" />
-    </list>
+    <list default="true" id="e16a0a32-71be-41b8-8d3a-1bbb0b7d930a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -182,6 +176,7 @@
         <option value="$PROJECT_DIR$/site/resume.html" />
         <option value="$PROJECT_DIR$/site/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sitemap-https.xml" />
       </list>
     </option>
   </component>
@@ -273,12 +268,13 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,12 +319,12 @@
       <updated>1520357779489</updated>
       <workItem from="1520357781651" duration="18213000" />
       <workItem from="1520448926895" duration="82895000" />
-      <workItem from="1520734404275" duration="40175000" />
+      <workItem from="1520734404275" duration="40463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141283000" />
+    <option name="totallyTimeSpent" value="141571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
@@ -605,14 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -722,6 +710,30 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#12326#12332#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/https-sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap-https.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
