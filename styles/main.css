@@ -289,21 +289,21 @@ footer a:hover {
 }
 
 .jumbotron-home {
-    background-image: url('../images/home-background-dark.jpg');
+    background-image: url('../images/home-background-dark.jpeg');
     background-size: cover;
     border-radius: 0;
     height: 750px;
 }
 
 .jumbotron-contact {
-    background-image: url('../images/building-bridges-dark.jpg');
+    background-image: url('../images/building-bridges-dark.jpeg');
     background-size: cover;
     border-radius: 0;
     height: 725px;
 }
 
 .jumbotron-about {
-    background-image: url('../images/about-alex-croll.jpg');
+    background-image: url('../images/about-alex-croll.jpeg');
     background-size: cover;
     border-radius: 0;
     height: 725px;
@@ -326,14 +326,14 @@ footer a:hover {
 }
 
 .jumbotron-resume {
-    background-image: url('../images/alexander-croll-resume.jpg');
+    background-image: url('../images/alexander-croll-resume.jpeg');
     background-size: cover;
     border-radius: 0;
     height: 725px;
 }
 
 .jumbotron-portfolio {
-    background-image: url('../images/alexander-croll-portfolio-bw.jpg');
+    background-image: url('../images/alexander-croll-portfolio-bw.jpeg');
     background-size: cover;
     border-radius: 0;
     height: 725px;
