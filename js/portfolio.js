@@ -1,6 +1,6 @@
-$(document).ready(() => {
+$(document).ready(function() {
 
-
+    /*var $filter = $('.btn-portfolio').activeElement.id;*/
     var $items = $('.portfolio-teaser');
 var $btns = $('.btn-portfolio').click(function () {
     if (this.id == 'all') {
@@ -11,6 +11,11 @@ var $btns = $('.btn-portfolio').click(function () {
     }
     $btns.removeClass('active');
     $(this).addClass('active');
+})
+
+$('#portfolio-back').on('click', function() {
+    parent.history.back(-1);
+    return false;
 })
 })
 

@@ -159,7 +159,8 @@ section {
     margin: 20px 10px;
     padding: 15px 25px;
     display: inline-block;
-
+    background: transparent;
+    cursor: pointer;
 }
 
 .btn-black-outl:hover {
@@ -548,6 +549,7 @@ footer a:hover {
     font-family: "Proxima Nova";
     font-weight: 700;
     letter-spacing: 1px;
+    padding-bottom: 20px;
 }
 
 .portfolio-teaser figcaption p {
@@ -589,7 +591,6 @@ footer a:hover {
     border-radius: 0;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    margin: 20px 10px;
     padding: 10px 20px;
     display: inline-block;
     background: transparent;
