@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
 
-    var $items = $('.col-portfolio');
+    var $items = $('.portfolio-teaser');
 var $btns = $('.btn-portfolio').click(function () {
     if (this.id == 'all') {
         $items.show();
